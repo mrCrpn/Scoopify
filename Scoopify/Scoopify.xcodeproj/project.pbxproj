@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6E2578EA2CDED4AC004FE694 /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E2578E82CDED49D004FE694 /* Secrets.plist */; };
-		6E2578EC2CDED5C2004FE694 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6E2578EB2CDED5B4004FE694 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +32,6 @@
 		6E2578CB2CDED30D004FE694 /* ScoopifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoopifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E2578D52CDED30D004FE694 /* ScoopifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoopifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E2578E82CDED49D004FE694 /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
-		6E2578EB2CDED5B4004FE694 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -83,7 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				6E2578E82CDED49D004FE694 /* Secrets.plist */,
-				6E2578EB2CDED5B4004FE694 /* .gitignore */,
 				6E2578BB2CDED30C004FE694 /* Scoopify */,
 				6E2578CE2CDED30D004FE694 /* ScoopifyTests */,
 				6E2578D82CDED30D004FE694 /* ScoopifyUITests */,
@@ -221,7 +218,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E2578EC2CDED5C2004FE694 /* .gitignore in Resources */,
 				6E2578EA2CDED4AC004FE694 /* Secrets.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
